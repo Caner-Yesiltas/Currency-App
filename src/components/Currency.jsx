@@ -1,8 +1,11 @@
 import React from 'react'
+import "../styles/currency.css"
+import { FaLongArrowAltRight } from "react-icons/fa";
 
 const Currency = () => {
   return (
-    <div claasName="currency-div" >
+    <div className="currency-div" >
+          <div className="conversion-row">
       
       <input type="number" className='amount' />
       <select className='from-currency-option' >
@@ -13,6 +16,8 @@ const Currency = () => {
 
       </select>
 
+      <FaLongArrowAltRight style ={{ fontSize:'1.25rem', marginRight:".625rem"}} />
+
       <select className='to-currency-option' >
 
         <option>USD</option>
@@ -22,8 +27,17 @@ const Currency = () => {
       </select>
 
       <input type="number" className='result' />
+      </div>
+
+       <div >
+       <button className='convert-button' > Convert </button>
+       </div>
+       
 
     </div>
+
+
+
   )
 }
 
