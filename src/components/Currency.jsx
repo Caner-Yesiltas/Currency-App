@@ -25,9 +25,9 @@ const Currency = () => {
 
       if (response && response.data && response.data.data) {
         
-        const result = (response.data.data[toCurrency] * amount).toFixed(2);
+        const calculatedResult = (response.data.data[toCurrency] * amount).toFixed(2);
 
-        setResult(result);
+        setResult(calculatedResult);
 
       } else {
 
@@ -83,14 +83,14 @@ const Currency = () => {
           type='number'
           className='result'
           value={result}
-          onChange={(e) => setResult(e.target.value)}
+          readOnly
         />
       </div>
 
       <div>
         <button className='convert-button' onClick={exchange}>
-          {' '}
-          Convert{' '}
+          
+          Convert
         </button>
       </div>
     </div>
