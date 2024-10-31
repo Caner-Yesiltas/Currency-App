@@ -7,7 +7,7 @@
 </div>
 
 <p align="center">
-  <img src="./assets/demo.gif" alt="Currency Converter Demo">
+  <img src="./assets/demo.gif.gif" alt="Currency Converter Demo">
 </p>
 
 ## About The Project
