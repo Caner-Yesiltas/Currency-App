@@ -47,4 +47,11 @@
 .convert-button {
   color: green;
   font-size: 1rem;
+  cursor: pointer;
+}
+
+.convert-button:hover {
+  transition: 0.3s;
+  background-color: rgb(10, 233, 58);
+  border: none;
 }
