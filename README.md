@@ -1,62 +1,105 @@
-# Currency Converter App 🔄
+# Currency Converter App 💱
 
 <div align="center">
   <h2>
-    👉 <a href="https://currency-app-woad.vercel.app/">Click Here for Live Demo</a> 👈
+    👉 <a href="https://currency-app-woad.vercel.app/">Live Demo</a> 👈
   </h2>
 </div>
 
-<p align="center">
-  <img src="./assets/demo.gif.gif" alt="Currency Converter Demo">
-</p>
+<div align="center">
+  <img src="./assets/demo.gif" alt="Currency Converter Demo" width="800"/>
+</div>
 
-## About The Project
+## 📌 About The Project
 
-A simple and user-friendly currency converter application built with React. Users can convert between USD, EUR, and TRY currencies using real-time exchange rates.
+A modern and efficient currency converter application built with React. Users can instantly convert between USD, EUR, and TRY currencies using real-time exchange rates from FreeCurrencyAPI.
 
-### Features
+### ✨ Key Features
 
-- Real-time currency conversion
-- Support for USD, EUR, and TRY
-- Clean and responsive interface
-- Live exchange rates from FreeCurrencyAPI
+- 💹 Real-time currency conversion
+- 🌐 Support for USD, EUR, and TRY
+- 🔄 Live exchange rates updates
+- 📱 Responsive and mobile-friendly design
+- 🚀 Fast and efficient API integration
 
-### Built With
+### 🛠️ Built With
 
 - [React](https://reactjs.org/)
 - [Axios](https://axios-http.com/)
 - [FreeCurrencyAPI](https://freecurrencyapi.com/)
+- CSS3
 
-## Getting Started
+## 🚀 Getting Started
 
-To get a local copy up and running, follow these simple steps:
+```bash
+# Clone the repository
+git clone https://github.com/CanerYesiltas/currency-converter.git
 
-### Prerequisites
+# Navigate to project directory
+cd currency-converter
 
-- npm
-  npm install npm@latest -g
+# Install dependencies
+npm install
 
-### Installation
+# Start the development server
+npm start
+```
 
-1. Clone the repository
-   git clone https://github.com/CanerYesiltas/currency-converter.git
+## 💻 Project Structure
 
-2. Install NPM packages
-   npm install
+```
+src/
+├── components/
+│   ├── CurrencyInput.js    # Currency input handling
+│   └── ExchangeRate.js     # Rate display component
+├── services/
+│   └── api.js             # API integration
+└── App.js                 # Main application logic
+```
 
-3. Start the development server
-   npm start
+## 🔍 Core Functionality
 
-## Contributing
+- **Real-time Conversion**: Instant currency conversion with live rates
+- **Multiple Currencies**: Support for major currencies (USD, EUR, TRY)
+- **API Integration**: Reliable exchange rates from FreeCurrencyAPI
+- **Input Validation**: Proper handling of numeric inputs
+- **Error Handling**: Graceful error management for API calls
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+## 🎯 Component Details
 
-## License
+### CurrencyInput Component
+- Currency selection dropdown
+- Numeric input validation
+- Clean and intuitive interface
+
+### ExchangeRate Component
+- Live rate display
+- Auto-updating values
+- Clear rate presentation
+
+## 📱 Responsive Design
+
+- Mobile-first approach
+- Flexible layout system
+- Optimized for all screen sizes
+- Touch-friendly interface
+
+## 🤝 Contributing
+
+Contributions make the open source community an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+## 📄 License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-## Contact
+## 📫 Contact
 
 Caner Yesiltas - caneryesiltas1@gmail.com
 
 Project Link: [https://github.com/CanerYesiltas/currency-converter](https://github.com/CanerYesiltas/currency-converter)
+
+---
+
+<div align="center">
+  Made with ❤️ by Caner Yesiltas
+</div>
