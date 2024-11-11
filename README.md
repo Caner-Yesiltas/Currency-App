@@ -7,7 +7,7 @@
 </div>
 
 <div align="center">
-   <img src="assets/demo.gif" alt="Currency Converter Demo" width="800"/>
+   <img src="../Currency-App/assets/currency-background.jpg" alt="Currency Converter Demo" width="800"/>
 </div>
 
 ## 📌 About The Project
