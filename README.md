@@ -50,12 +50,13 @@ npm start
 ```
 src/
 ├── components/
-│   ├── CurrencyInput.js    # Currency input handling
-│   └── ExchangeRate.js     # Rate display component
-├── services/
-│   └── api.js             # API integration
-└── App.js                 # Main application logic
-```
+│   └── Currency.jsx       # Currency component for conversion
+├── styles/
+│   └── App.css           # Main styles
+├── images/               # Project images
+├── helper/               # Helper functions
+├── pages/                # Page components
+└── App.js                # Main application logic
 
 ## 🔍 Core Functionality
 
@@ -96,7 +97,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Caner Yesiltas - caneryesiltas1@gmail.com
 
-Project Link: [https://github.com/CanerYesiltas/currency-converter](https://github.com/CanerYesiltas/currency-converter)
+Project Link: [https://currency-app-woad.vercel.app/](https://currency-app-woad.vercel.app/)
 
 ---
 
