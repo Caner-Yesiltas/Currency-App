@@ -1,4 +1,9 @@
+
+<div align="center">
+ <h1> 
 # Currency Converter App 💱
+ </h1>
+</div>
 
 <div align="center">
   <h2>
