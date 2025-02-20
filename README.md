@@ -62,7 +62,7 @@ src/
 ├── helper/               # Helper functions
 ├── pages/                # Page components
 └── App.js                # Main application logic
-
+```
 ## 🔍 Core Functionality
 
 - **Real-time Conversion**: Instant currency conversion with live rates
@@ -104,8 +104,8 @@ Caner Yesiltas - caneryesiltas1@gmail.com
 
 Project Link: [https://currency-app-woad.vercel.app/](https://currency-app-woad.vercel.app/)
 
----
+
 
 <div align="center">
-  Made with ❤️ by Caner Yesiltas
+  Made with 💱 by Caner Yesiltas
 </div>
