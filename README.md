@@ -7,7 +7,7 @@
 
 <div align="center">
   <h2>
-    👉 <a href="https://currency-9a3otyffm-caner-yesiltas-projects.vercel.app/">Live Demo</a> 👈
+    👉 <a href="https://currency-app-woad.vercel.app/">Live Demo</a> 👈
   </h2>
 </div>
 
@@ -102,7 +102,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Caner Yesiltas - caneryesiltas1@gmail.com
 
-Project Link: [https://currency-9a3otyffm-caner-yesiltas-projects.vercel.app/](https://currency-9a3otyffm-caner-yesiltas-projects.vercel.app/)
+Project Link: [https://currency-app-woad.vercel.app/](https://currency-app-woad.vercel.app/)
 
 
 
